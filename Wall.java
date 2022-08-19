@@ -3,8 +3,8 @@ public class Wall{
     private double width;
     
     public Wall(){
-        //this(0.0,0.0);
     }
+    
     public Wall(double width, double height){
         if(height<0 && width<0){
             this.height = 0;
